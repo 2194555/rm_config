@@ -66,7 +66,18 @@ rm_manual:
       k_hp: 1.0
       k_freq: 1.0
       timeout: 0.0
-
+  custom_data_offset: # make the minimum value zero
+    data1_offset: -5.961
+    data2_offset: -4.738
+    data3_offset: -1.545
+    data4_offset: -4.862
+    data5_offset: -6.27
+  custom_controller_offset:
+    joint2: -3.84
+    joint3: -2.40
+    joint4: -2.15
+    joint5: 1.747
+    joint6: 2.00
 
 
   chassis_calibrate_motor: [ ]
@@ -91,7 +102,7 @@ rm_manual:
 
     calibration_controllers:
       - controllers/joint1_calibration_controller
-      - controllers/ee_calibration_controller
+#      - controllers/ee_calibration_controller
       - controllers/silver_lifter_calibration_controller
       - controllers/silver_pusher_calibration_controller
       - controllers/silver_rotator_calibration_controller
@@ -101,7 +112,7 @@ rm_manual:
   calibration_gather:
     - start_controllers:
         - controllers/joint1_calibration_controller
-        - controllers/ee_calibration_controller
+#        - controllers/ee_calibration_controller
         - controllers/silver_lifter_calibration_controller
         - controllers/silver_pusher_calibration_controller
         - controllers/silver_rotator_calibration_controller
@@ -117,7 +128,7 @@ rm_manual:
         - controllers/gold_lifter_controller
       services_name:
         - /controllers/joint1_calibration_controller/is_calibrated
-        - /controllers/ee_calibration_controller/is_calibrated
+#        - /controllers/ee_calibration_controller/is_calibrated
         - /controllers/silver_lifter_calibration_controller/is_calibrated
         - /controllers/silver_pusher_calibration_controller/is_calibrated
         - /controllers/silver_rotator_calibration_controller/is_calibrated

@@ -2,12 +2,12 @@ can_motors:
   ############ can0 ############
   - can_id: 1
     can_bus: 0
-    name: "left_diff_motor"
+    name: "joint5_motor"
     type: "DM4310C"
     need_calibration: true
   - can_id: 2
     can_bus: 0
-    name: "right_diff_motor"
+    name: "joint6_motor"
     type: "DM4310C"
     need_calibration: true
   - can_id: 3

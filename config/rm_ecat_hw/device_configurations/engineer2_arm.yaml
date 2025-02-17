@@ -3,12 +3,12 @@ can_motors:
   - can_id: 1
     can_bus: 0
     name: "joint5_motor"
-    type: "DM4310C"
+    type: "DM4310"
     need_calibration: true
   - can_id: 2
     can_bus: 0
     name: "joint6_motor"
-    type: "DM4310C"
+    type: "DM4310"
     need_calibration: true
   - can_id: 3
     can_bus: 0

@@ -17,7 +17,7 @@ controllers:
       - joint6
     gains:
       joint1: { p: 15000.0, i: 0.5, d: 700.0, i_clamp_max: 2, i_clamp_min: -2, antiwindup: true, publish_state: false }
-      joint2: { p: 150, i: 1, d: 2., i_clamp_max: 5, i_clamp_min: -5, antiwindup: true, publish_state: false }
+      joint2: { p: 150.0, i: 1, d: 2., i_clamp_max: 5, i_clamp_min: -5, antiwindup: true, publish_state: false }
       joint3: { p: 150.0, i: 1, d: 1.5, i_clamp_max: 2, i_clamp_min: -2, antiwindup: true, publish_state: false }
       joint4: { p: 25.0, i: 1.0, d: 0.4, i_clamp_max: 2, i_clamp_min: -2, antiwindup: true, publish_state: false }
       joint5: { p: 25.0, i: 1.0, d: 0.4, i_clamp_max: 1, i_clamp_min: -1, antiwindup: true, publish_state: false }
@@ -36,9 +36,9 @@ controllers:
       - small_joint2
       - small_joint3
     gains:
-      small_joint1: { p: 150.0, i: 0.2, d: 2.5, i_clamp_max: 2, i_clamp_min: -2, antiwindup: true, publish_state: false }
-      small_joint2: { p: 47.0, i: 0.8, d: 0.83, i_clamp_max: 4, i_clamp_min: -4, antiwindup: true, publish_state: false }
-      small_joint3: { p: 12.0, i: 0.2, d: 0.13, i_clamp_max: 2.5, i_clamp_min: -2.5, antiwindup: true, publish_state: false }
+      small_joint1: { p: 200.0, i: 2.0, d: 1.2, i_clamp_max: 10.0, i_clamp_min: -10.0, antiwindup: true, publish_state: false }
+      small_joint2: { p: 200.0, i: 2.5, d: 1.0, i_clamp_max: 7.0, i_clamp_min: -7.0, antiwindup: true, publish_state: false }
+      small_joint3: { p: 27.0, i: 6.0, d: 0.5, i_clamp_max: 5.0, i_clamp_min: -5.0, antiwindup: true, publish_state: false }
   #    constraints:
   #      small_joint1: { trajectory: 0.03, goal: 0.01 }
   #      small_joint2: { trajectory: 0.03, goal: 0.01 }

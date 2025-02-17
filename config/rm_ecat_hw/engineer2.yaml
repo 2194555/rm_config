@@ -17,3 +17,4 @@ ethercat_devices:
     configuration_file: device_configurations/engineer2_small_arm.yaml
     ethercat_bus: enp2s0
     ethercat_address: 3
+

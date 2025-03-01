@@ -67,7 +67,7 @@ rm_manual:
       k_freq: 1.0
       timeout: 0.0
   custom_data_offset: # make the minimum value zero
-    data1_offset: -1.92
+    data1_offset: -4.015
     data2_offset: -2.605
     data3_offset: -4.625
     data4_offset: -3.298

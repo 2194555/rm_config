@@ -72,12 +72,16 @@ rm_manual:
     data3_offset: -4.625
     data4_offset: -3.298
     data5_offset: -0.265
+    data6_offset: 0
   custom_controller_offset:
     joint2: -3.91
     joint3: -2.663
     joint4: -2.20
     joint5: 1.8
     joint6: 1.9
+  custom_controller_joint1:
+    custom_dead_zone: 0.08
+    custom_speed_scale: 0.1
 
 
   chassis_calibrate_motor: [ ]
